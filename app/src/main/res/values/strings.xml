@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">好萌</string>
+	<string name="action_share">Share</string>
+    <string name="action_settings">进入论坛</string>
+	<string name="action_reback">进入官网</string>
+	<string name="action_chat">进入闲聊</string>
+	<string name="action_guanyu">关于</string>
+	<string name="hidden">隐藏软件顶栏</string>
+</resources>

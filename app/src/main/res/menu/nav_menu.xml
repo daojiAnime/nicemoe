@@ -1,0 +1,39 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+>
+	<group 
+		android:checkableBehavior="single"> 
+		<item
+			android:id="@+id/action_guanyu"
+			android:orderInCategory="1"
+			android:title="@string/action_guanyu" />
+		<item
+			android:id="@+id/share_btn"
+			android:title="@string/action_share"
+			android:icon="@mipmap/ic_share"/>
+		<item
+			android:id="@+id/action_settings"
+			android:orderInCategory="100"
+			android:title="@string/action_settings" />
+		<item
+			android:id="@+id/action_reback"
+			android:orderInCategory="100"
+			android:icon="@drawable/icon"
+			android:title="@string/action_reback" />
+		<item
+			android:id="@+id/action_chat"
+			android:orderInCategory="100"
+			android:title="@string/action_chat" />
+	</group>
+	<item 
+		android:title="选项"> 
+		<menu>
+			
+			<!--<item
+				android:id="@+id/hidden_btn"
+				android:orderInCategory="100"
+				android:icon="@drawable/ic_done"
+				android:title="@string/hidden"
+				android:checkable="true"/>-->
+		</menu>
+	</item>
+</menu>
